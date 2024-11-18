@@ -32,4 +32,3 @@ jobs:
           name: codecov-umbrella
       - name: Build
         run: npm run build
-
