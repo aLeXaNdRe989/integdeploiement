@@ -27,6 +27,15 @@ jobs:
       - name: List coverage files (debug)
         run: ls -R coverage
 
+      - name: Build the project
+        run: npm run build
+
+      - name: Deploy to Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
