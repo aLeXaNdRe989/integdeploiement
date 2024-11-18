@@ -1,0 +1,20 @@
+/* src/components/Toaster.css */
+
+.toaster {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    border-radius: 4px;
+    color: #fff;
+    z-index: 1000;
+    opacity: 0.9;
+}
+
+.toaster.success {
+    background-color: #4caf50;
+}
+
+.toaster.error {
+    background-color: #f44336;
+}
