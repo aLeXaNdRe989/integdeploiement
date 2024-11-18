@@ -41,14 +41,10 @@ Le formulaire inclut les champs suivants :
 
 ---
 
-## Installation
+### Scripts
+- npm start : Lance le serveur de développement.
+- npm run build : Génère une version optimisée pour la production.
+- npm test : Lance les tests unitaires.
+- npm run test:coverage : Génère un rapport de couverture.
+- npm run lint : Analyse le code pour détecter les erreurs.
 
-### Prérequis
-- Node.js (v16 ou supérieur)
-- npm (v8 ou supérieur)
-
-### Étapes
-1. Clonez ce dépôt :
-   ```bash
-   git clone https://github.com/<votre-utilisateur>/<votre-repo>.git
-   cd <votre-repo>
